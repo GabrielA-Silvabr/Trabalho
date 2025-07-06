@@ -1,90 +1,142 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
+<!-- Declara o tipo de documento como HTML5 -->
 <html lang="pt-br">
+<!-- Define o idioma principal do documento como português do Brasil -->
 <head>
+    <!-- A seção <head> contém metadados sobre o documento, não visíveis diretamente na página -->
     <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres para UTF-8, que suporta a maioria dos caracteres, incluindo acentos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para garantir que a página seja responsiva e se adapte a diferentes tamanhos de tela -->
     <title>Meu Portfólio Pessoal</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
     <link rel="stylesheet" href="style.css">
+    <!-- Linka o arquivo CSS externo (style.css) para estilizar a página -->
 </head>
 <body>
+    <!-- A seção <body> contém todo o conteúdo visível da página -->
     <header>
+        <!-- O <header> representa o cabeçalho da página, geralmente contendo navegação e/ou logotipo -->
         <nav>
+            <!-- A tag <nav> define uma seção de navegação -->
             <ul>
+                <!-- Uma lista não ordenada para os itens de navegação -->
                 <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <!-- Item da lista com um link que rola para a seção "sobre-mim" -->
                 <li><a href="#formacao">Formação</a></li>
+                <!-- Item da lista com um link que rola para a seção "formacao" -->
                 <li><a href="#portfolio">Portfólio</a></li>
+                <!-- Item da lista com um link que rola para a seção "portfolio" -->
                 <li><a href="#contato">Contato</a></li>
+                <!-- Item da lista com um link que rola para a seção "contato" -->
             </ul>
         </nav>
     </header>
 
     <main>
+        <!-- A tag <main> representa o conteúdo principal do documento -->
         <section id="sobre-mim" class="content-section">
+            <!-- Uma seção da página com o ID "sobre-mim" e a classe "content-section" para estilização -->
             <h1>Sobre Mim</h1>
+            <!-- Título principal da seção -->
             <p>Olá! Meu nome é Gabriel Nunciação e tenho 27 anos. Sou um entusiasta da tecnologia e da programação, sempre buscando expandir meus conhecimentos e habilidades nesse universo dinâmico. Fora do mundo digital, encontro paixão em diversas atividades que complementam minha curiosidade e disciplina.
 
 Adoro mergulhar em livros, explorando novas histórias e conceitos que ampliam minha visão de mundo. Os videogames são outra grande paixão, onde aprecio tanto a narrativa envolvente quanto o desafio estratégico que eles oferecem. Para me manter atualizado e aprender constantemente, sou um ávido ouvinte de podcasts sobre os mais variados temas, especialmente aqueles relacionados a tecnologia. Além disso, dedico parte do meu tempo à prática do Jiu-Jitsu, onde busco aprimorar a disciplina, o foco e a resiliência.
 
 Meu objetivo é combinar essa paixão pela tecnologia com minha dedicação ao aprendizado contínuo para criar soluções inovadoras e eficientes.</p>
+            <!-- Parágrafo com a descrição "Sobre Mim" -->
         </section>
 
         <section id="formacao" class="content-section">
+            <!-- Seção de "Formação Educacional e Idiomas" -->
             <h1>Formação Educacional e Idiomas</h1>
+            <!-- Título principal da seção -->
             <h2>Formação Acadêmica:</h2>
+            <!-- Subtítulo para a formação acadêmica -->
             <ul>
+                <!-- Lista não ordenada para a formação acadêmica -->
                 <li>Bacharel em Direito - FAINOR - Faculdade Independente do Nordeste (2016 - 2021)</li>
+                <!-- Item da lista: curso de Bacharel em Direito -->
                 <li>Cursos e Especializações em Tecnologia:
 Cursos de Python e Lógica de Programação - Alura e Udemy
 
 Através de plataformas renomadas como Alura e Udemy, aprofundei meus conhecimentos em Python e em lógica de programação, construindo uma base sólida para o desenvolvimento de software.
 
 Minha jornada profissional tem me levado de uma sólida formação jurídica para o fascinante mundo da tecnologia. Essa transição reflete meu forte interesse e paixão por desvendar sistemas e criar soluções digitais. Atualmente, meus principais interesses se concentram nas áreas de desenvolvimento Back-end e Segurança Digital.</li>
+                <!-- Item da lista: cursos e especializações em tecnologia -->
             </ul>
 
             <h2>Idiomas:</h2>
+            <!-- Subtítulo para os idiomas -->
             <ul>
+                <!-- Lista não ordenada para os idiomas -->
                 <li>Português: Nativo</li>
+                <!-- Item da lista: Português -->
                 <li>Inglês: Avançado</li>
-                                      
+                <!-- Item da lista: Inglês -->
             </ul>
         </section>
 
         <section id="portfolio" class="content-section">
+            <!-- Seção de "Meu Portfólio" -->
             <h1>Meu Portfólio</h1>
+            <!-- Título principal da seção -->
             <p>Aqui você encontrará alguns dos projetos que desenvolvi. Eles refletem meu aprendizado e minhas habilidades em programação web.</p>
+            <!-- Parágrafo de introdução ao portfólio -->
             <div class="portfolio-items">
+                <!-- Contêiner para os itens do portfólio, usando a classe "portfolio-items" para estilização -->
                 <div class="portfolio-item">
+                    <!-- Um item individual do portfólio, usando a classe "portfolio-item" -->
                     <h3>Projeto 1: Projeto Inicial</h3>
+                    <!-- Título do projeto -->
                     <p>Este foi um site simples desenvolvido para praticar HTML e CSS, focado em responsividade.</p>
-
+                    <!-- Descrição do projeto -->
                     <a href="https://github.com/GabrielA-Silvabr/ProjetoInicial.git" target="_blank">Ver Projeto</a>
+                    <!-- Link para o projeto no GitHub, abrindo em uma nova aba (_blank) -->
                 </div>
-                
+                <!-- Você pode adicionar mais divs 'portfolio-item' para outros projetos -->
+            </div>
         </section>
 
         <section id="contato" class="content-section">
+            <!-- Seção de "Contato" -->
             <h1>Contato</h1>
+            <!-- Título principal da seção -->
             <p>Se você tem alguma pergunta ou gostaria de entrar em contato, por favor, preencha o formulário abaixo ou envie um e-mail diretamente em gabrielanunciao@hotmail.com</p>
+            <!-- Parágrafo de introdução ao contato -->
             <form action="#" method="POST">
+                <!-- Formulário de contato. O 'action="#"' significa que ele não enviará dados para um servidor específico, e 'method="POST"' define o método de envio -->
                 <div class="form-group">
+                    <!-- Grupo de formulário para o campo Nome -->
                     <label for="nome">Nome:</label>
+                    <!-- Rótulo para o campo Nome -->
                     <input type="text" id="nome" name="nome" required>
+                    <!-- Campo de entrada de texto para o nome, com ID, nome e atributo 'required' para validação -->
                 </div>
                 <div class="form-group">
+                    <!-- Grupo de formulário para o campo E-mail -->
                     <label for="email">E-mail:</label>
+                    <!-- Rótulo para o campo E-mail -->
                     <input type="email" id="email" name="email" required>
+                    <!-- Campo de entrada de e-mail, com ID, nome e atributo 'required' -->
                 </div>
                 <div class="form-group">
+                    <!-- Grupo de formulário para o campo Mensagem -->
                     <label for="mensagem">Mensagem:</label>
+                    <!-- Rótulo para o campo Mensagem -->
                     <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <!-- Área de texto para a mensagem, com ID, nome, 5 linhas visíveis e atributo 'required' -->
                 </div>
                 <button type="submit">Enviar Mensagem</button>
+                <!-- Botão para enviar o formulário -->
             </form>
         </section>
     </main>
 
     <footer>
+        <!-- O <footer> representa o rodapé da página -->
         <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+        <!-- Parágrafo com o aviso de direitos autorais. Lembre-se de substituir "[Seu Nome]" pelo seu nome. -->
     </footer>
 </body>
 </html>
